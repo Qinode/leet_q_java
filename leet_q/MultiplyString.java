@@ -1,4 +1,4 @@
-class Solution {
+class MultiplyString {
     public String multiply(String s1, String s2) {
         if ("0".equals(s1) || "0".equals(s2)) {
             return "0";

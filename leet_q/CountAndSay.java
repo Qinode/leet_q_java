@@ -1,4 +1,4 @@
-public class Solution {
+public class CountAndSay {
 
     public String countAndSay(int n) {
         if (n == 1) {
@@ -9,7 +9,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution s = new Solution();
+        CountAndSay s = new CountAndSay();
         System.out.println(s.countAndSay(4));
     }
 

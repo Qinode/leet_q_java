@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class RemoveDuplicatesFromSortedList {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null){
             return head;

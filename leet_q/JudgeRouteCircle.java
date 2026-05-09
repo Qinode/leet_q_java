@@ -1,4 +1,4 @@
-class Solution {
+class JudgeRouteCircle {
     public boolean judgeCircle(String moves) {
         Map<Character, Integer> dict = new HashMap<Character, Integer>();
         dict.put('U', 0);

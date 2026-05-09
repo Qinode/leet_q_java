@@ -1,4 +1,4 @@
-class Solution {
+class SimplifyPath {
     public String simplifyPath(String path) {
         path = path + "/";
         Stack<String> shortestPath = new Stack<String>();

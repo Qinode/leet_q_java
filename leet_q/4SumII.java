@@ -1,4 +1,4 @@
-class Solution {
+class 4SumII {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         Map<Integer, Integer> aPlusB = new HashMap<Integer, Integer>();
         for (int i = 0; i < A.length; i++){

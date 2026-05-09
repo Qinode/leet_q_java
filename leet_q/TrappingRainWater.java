@@ -1,4 +1,4 @@
-class Solution {
+class TrappingRainWater {
     int trap(int[] height)
     {
         int ans = 0;

@@ -1,4 +1,4 @@
-class Solution {
+class HappyNumber {
 
     private Set<Integer> storage = new HashSet<Integer>();
 

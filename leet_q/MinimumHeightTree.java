@@ -1,4 +1,4 @@
-class Solution {
+class MinimumHeightTree {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         if (n == 1) return Collections.singletonList(0);
 

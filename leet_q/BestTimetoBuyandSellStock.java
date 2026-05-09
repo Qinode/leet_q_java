@@ -1,4 +1,4 @@
-class Solution {
+class BestTimetoBuyandSellStock {
     public int maxProfit(int[] prices) {
         if (prices.length <= 1) {
             return 0;

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class SurroundedRegions {
     public void solve(char[][] board) {
         if(board.length == 0){
             return;

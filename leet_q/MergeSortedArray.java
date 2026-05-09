@@ -3,7 +3,7 @@
 // the two in one go. E.g. [4, 0, 0, 0, 0, 0], [1, 2, 3, 5, 6]
 // This is the minumum element is in the second array.
 
-class Solution1 {
+class MergeSortedArray {
     public int subMerge(int[] nums1, int m, int[] nums2, int n) {
         int i = 0;
         int j = 0;
@@ -36,7 +36,7 @@ class Solution1 {
 // to left. It is critical to observe that the some spaces in the right
 // of the first array are empty, therefore, fill the elemtn from
 // right to left is more nature.
-class Solution2 {
+class MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
 
         int k = nums1.length - 1;

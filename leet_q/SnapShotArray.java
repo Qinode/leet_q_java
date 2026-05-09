@@ -1,4 +1,4 @@
-class SnapshotArray {
+class SnapShotArray {
 
     int[] array;
     int snap = -1;

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class StoneGameII {
     int gameScore = 0;
     Map<String, Integer> cache = new HashMap<String, Integer>();
     // gameScore = alexScore - leeScore;

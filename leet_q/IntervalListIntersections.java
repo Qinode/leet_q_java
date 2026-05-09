@@ -1,4 +1,4 @@
-class Solution {
+class IntervalListIntersections {
     private static final int START = 0;
     private static final int END = 1;
 

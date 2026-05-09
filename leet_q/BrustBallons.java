@@ -1,4 +1,4 @@
-class Solution {
+class BrustBallons {
     public int maxCoins(int[] iNums) {
         int[] nums = new int[iNums.length + 2];
         int n = 1;

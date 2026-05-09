@@ -6,7 +6,7 @@
  *     TreeLinkNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class PopulatingNextRightPointersinEachNode {
     public void connect(TreeLinkNode root) {
         if(root == null || root.left == null){
             return;
